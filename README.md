@@ -227,3 +227,65 @@ about.html  home.html  README.md
 
 BUNDLE 2
 #e[2Exercise 1
+                  
+BUNDLE 2
+# Exercise 1
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git branch ft/bundle-2
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git checkout ft/bundle-2
+Switched to branch 'ft/bundle-2'
+M       README.md
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/bundle-2)
+λ cat > services.html
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title>Home</html>
+        </head>
+        <body>
+                <div>
+                        <p>This is the service page</p>
+                </div>
+        </body>
+</html>
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/bundle-2)
+λ cat >> README.md
+
+BUNDLE 2
+#Exercise 1
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/bundle-2)
+λ git add services.html README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in services.html.
+The file will have its original line endings in your working directory
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/bundle-2)
+λ git commit -m "created a new branch and added some changes"
+[ft/bundle-2 3563c8b] created a new branch and added some changes
+ 2 files changed, 15 insertions(+)
+ create mode 100644 services.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/bundle-2)
+λ git push git@github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 543 bytes | 271.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
+remote:      https://github.com/Demmythetechie/Gym-Git-Exercise-Solution/pull/new/ft/bundle-2
+remote:
+To github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+ * [new branch]      ft/bundle-2 -> ft/bundle-2
+
+
