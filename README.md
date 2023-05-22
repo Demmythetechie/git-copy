@@ -408,3 +408,125 @@ To github.com:Demmythetechie/git-copy.git
  * [new branch]      main -> main
 
 
+BUNDLE 4
+#Exercise 2
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git branch ft/footer
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git checkout ft/footer
+Switched to branch 'ft/footer'
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/footer)
+λ cat > footer.html
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title>Home</html>
+        </head>
+        <body>
+                <div>
+                        <p>This is the footer section of the home page</p>
+                </div>
+        </body>
+</html>
+
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/footer)
+λ git add footer.html
+warning: LF will be replaced by CRLF in footer.html.
+The file will have its original line endings in your working directory
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/footer)
+λ git commit -m "Created ft/footer and footer.html branch in it"
+[ft/footer 545ec40] Created ft/footer and footer.html branch in it
+ 1 file changed, 13 insertions(+)
+ create mode 100644 footer.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/footer)
+λ sed -i "s/div/footer/g" footer.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/footer)
+λ git add footer.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/footer)
+λ git commit -m "Changed the div element in footer.html to footer element"
+[ft/footer c97f697] Changed the div element in footer.html to footer element
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/footer)
+λ git push git@github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 721 bytes | 360.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/footer' on GitHub by visiting:
+remote:      https://github.com/Demmythetechie/Gym-Git-Exercise-Solution/pull/new/ft/footer
+remote:
+To github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+ * [new branch]      ft/footer -> ft/footer
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/footer)
+λ git push git@github.com:Demmythetechie/git-copy.git
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 721 bytes | 360.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/footer' on GitHub by visiting:
+remote:      https://github.com/Demmythetechie/git-copy/pull/new/ft/footer
+remote:
+To github.com:Demmythetechie/git-copy.git
+ * [new branch]      ft/footer -> ft/footer
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/footer)
+λ git checkout main
+Switched to branch 'main'
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git branch ft/squashing
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git checkout ft/squashing
+Switched to branch 'ft/squashing'
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/squashing)
+λ git merge --squash ft/footer
+Updating e197287..c97f697
+Fast-forward
+Squash commit -- not updating HEAD
+ footer.html | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+ create mode 100644 footer.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/squashing)
+λ git commit -m "footer changes squashing"
+[ft/squashing 6e90efb] footer changes squashing
+ 1 file changed, 12 insertions(+)
+ create mode 100644 footer.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/squashing)
+λ git push git@github.com:Demmythetechie/git-copy.git
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 407 bytes | 203.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/squashing' on GitHub by visiting:
+remote:      https://github.com/Demmythetechie/git-copy/pull/new/ft/squashing
+remote:
+To github.com:Demmythetechie/git-copy.git
+ * [new branch]      ft/squashing -> ft/squashing
+
+
