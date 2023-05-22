@@ -289,3 +289,32 @@ To github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
  * [new branch]      ft/bundle-2 -> ft/bundle-2
 
 
+
+BUNDLE 3
+#Exercise 1
+
+using vi cleared all my history command and response but used history command in cmder to find my command history.
+
+  git branch ft/team-page
+  cat > team.html
+  git add team.html
+  git commit -m "Created a branch ft/team-page and a html file in it"
+  git checkout main
+  git  branch ft/contact-page
+  git log -1
+  git checkout ft/contact-page
+  git cherry-pick 9a2098516ddea1b4e515fcf223d5ca6f56929631
+  cat > contact.html
+  git add -A
+  git commit -m "cherry picked the last changes made to branch ft/team-page and added a new html file"
+  git branch ft/faq-page
+  git checkout ft/faq-page
+  cat > faq.html
+  git add faq.html
+  git commit -m "Created a new branch ft/faq-page and an html file faq.html"
+  git push git@github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+  git checkout ft/team-page
+  git revert 9a2098516ddea1b4e515fcf223d5ca6f56929631
+  git add -A
+  git commit -m "reverted changes of contact branch commit made to team branch previously"
+  git push git@github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
