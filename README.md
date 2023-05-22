@@ -359,3 +359,52 @@ To github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
  * [new branch]      ft/home-page-redesign -> ft/home-page-redesign
 
 
+BUNDLE 4
+#Exercise 1
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/home-page-redesign)
+λ git checkout main
+Switched to branch 'main'
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git remote add git-copy git@github.com:Demmythetechie/git-copy.git
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ sed -i "10 a \\t\t\t<p>A new remote repo (git-copy) as been created and added</p>" home.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ sed -i "9 a \\t\t\t<p>A new remote repo (git-copy) as been created and added</p>" home.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git add -A
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git commit -m "Created a new remote repo (git-copy) as been created and added it"
+[main 269eea0] Created a new remote repo (git-copy) as been created and added it
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git push git@github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 380 bytes | 380.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+   8d09341..269eea0  main -> main
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git push git@github.com:Demmythetechie/git-copy.git
+Enumerating objects: 55, done.
+Counting objects: 100% (55/55), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (51/51), done.
+Writing objects: 100% (55/55), 9.17 KiB | 447.00 KiB/s, done.
+Total 55 (delta 26), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (26/26), done.
+To github.com:Demmythetechie/git-copy.git
+ * [new branch]      main -> main
+
+
