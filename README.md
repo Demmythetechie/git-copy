@@ -1,5 +1,5 @@
 BUNDLE 1 
-#Exercise 1
+Exercise 1
 
 C:\Users\Ejitade Isaac\Downloads\cmder
 λ mkdir Gym-Git-Exercise-Solutions
@@ -68,7 +68,7 @@ main
 
 
 BUNDLE 1
-#Exercise 2
+Exercise 2
 
 C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
 λ cat > home.html
@@ -224,7 +224,7 @@ C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
 about.html  home.html  README.md
                   
 BUNDLE 2
-# Exercise 1
+Exercise 1
 
 C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
 λ git branch ft/bundle-2
@@ -252,7 +252,7 @@ C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/bundle-2)
 λ cat >> README.md
 
 BUNDLE 2
-#Exercise 1
+Exercise 1
 
 C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/bundle-2)
 λ git add services.html README.md
@@ -316,7 +316,7 @@ using vi cleared all my history command and response but used history command in
 
 
 BUNDLE 3
-#Exercise 2
+Exercise 2
 
 C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
 λ git checkout ft/home-page-redesign
@@ -355,7 +355,7 @@ To github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
 
 
 BUNDLE 4
-#Exercise 1
+Exercise 1
 
 C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/home-page-redesign)
 λ git checkout main
@@ -404,7 +404,7 @@ To github.com:Demmythetechie/git-copy.git
 
 
 BUNDLE 4
-#Exercise 2
+Exercise 2
 
 C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
 λ git branch ft/footer
@@ -526,7 +526,7 @@ To github.com:Demmythetechie/git-copy.git
 
 
 BUNDLE 5
-#Exercise 1
+Exercise 1
 
 Done. Github page is live
 
