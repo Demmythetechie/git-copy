@@ -558,7 +558,9 @@ C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/camera.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css"> ..........
+    <link rel="stylesheet" href="css/jquery.fancybox.css"> ......
+</head>
+</html>
 
 C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
 λ sed -i "s/Blandit/ipsum/g" index.html
@@ -585,5 +587,43 @@ Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:Demmythetechie/git-cafe-exercise.git
    d1d3f9c..17937ec  main -> main
+
+
+BUNDLE 6
+Exercise 1
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ git branch Branch1
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ git checkout Branch1
+Switched to branch 'Branch1'
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(Branch1)
+λ sed -i "s/Read more/Learn more/" index-3.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(Branch1)
+λ git add -A
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(Branch1)
+λ git commit -m "Changed Read more to learn more"
+[Branch1 bcf17a6] Changed Read more to learn more
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(Branch1)
+λ git push git@github.com:Demmythetechie/git-cafe-exercise.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 370 bytes | 370.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'Branch1' on GitHub by visiting:
+remote:      https://github.com/Demmythetechie/git-cafe-exercise/pull/new/Branch1
+remote:
+To github.com:Demmythetechie/git-cafe-exercise.git
+ * [new branch]      Branch1 -> Branch1
 
 
