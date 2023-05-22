@@ -284,7 +284,7 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 remote:
 remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
 remote:      https://github.com/Demmythetechie/Gym-Git-Exercise-Solution/pull/new/ft/bundle-2
-remote:
+remote:p
 To github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
  * [new branch]      ft/bundle-2 -> ft/bundle-2
 
@@ -318,3 +318,44 @@ using vi cleared all my history command and response but used history command in
   git add -A
   git commit -m "reverted changes of contact branch commit made to team branch previously"
   git push git@github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+
+
+BUNDLE 3
+#Exercise 2
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
+λ git checkout ft/home-page-redesign
+Switched to branch 'ft/home-page-redesign'
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/home-page-redesign)
+λ git rebase main
+Successfully rebased and updated refs/heads/ft/home-page-redesign.
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/home-page-redesign)
+λ sed -i "9 a \\t\t\t<p>we got all changes made to the main branch using git rebase main</p>" home.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/home-page-redesign)
+λ git add -A
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/home-page-redesign)
+λ git commit -m "created ft/home-page-redesign bramch and rebased all changes of main so far to it"
+[ft/home-page-redesign 9996912] created ft/home-page-redesign bramch and rebased all changes of main so far to it
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(ft/home-page-redesign)
+λ git push git@github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 1.52 KiB | 518.00 KiB/s, done.
+Total 12 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/home-page-redesign' on GitHub by visiting:
+remote:      https://github.com/Demmythetechie/Gym-Git-Exercise-Solution/pull/new/ft/home-page-redesign
+remote:
+To github.com:Demmythetechie/Gym-Git-Exercise-Solution.git
+ * [new branch]      ft/home-page-redesign -> ft/home-page-redesign
+
+
