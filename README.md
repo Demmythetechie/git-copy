@@ -663,3 +663,42 @@ remote:
 To github.com:Demmythetechie/git-cafe-exercise.git
  * [new branch]      bug-fix -> bug-fix
 
+
+BUNDLE 6
+Exercise 3
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ git branch hot-fix
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ git checkout hot-fix
+Switched to branch 'hot-fix'
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(hot-fix)
+λ sed -i "s/+1 800 603 6035/+1 800 659 6035/" index-4.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(hot-fix)
+λ git add -A
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(hot-fix)
+λ git commit -m "change telephone-no to +1 800 659 6035"
+[hot-fix 6416be3] change telephone-no to +1 800 659 6035
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(hot-fix)
+λ git push git@github.com:Demmythetechie/git-cafe-exercise.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'hot-fix' on GitHub by visiting:
+remote:      https://github.com/Demmythetechie/git-cafe-exercise/pull/new/hot-fix
+remote:
+To github.com:Demmythetechie/git-cafe-exercise.git
+ * [new branch]      hot-fix -> hot-fix
+
+
