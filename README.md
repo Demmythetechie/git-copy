@@ -530,4 +530,60 @@ Exercise 1
 
 Done. Github page is live
 
+BUNDLE 5
+Exercise 2
+
+C:\Users\Ejitade Isaac\Downloads\cmder
+λ git clone git@github.com:Demmythetechie/git-cafe-exercise.git
+Cloning into 'git-cafe-exercise'...
+remote: Enumerating objects: 107, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 107 (delta 5), reused 4 (delta 4), pack-reused 95Receiving objects:  97% (104/107), 1.86 MiB | 202.00 KReceiving objects: 100% (107/107), 1.86 MiB | 202.00 KiB/s
+Receiving objects: 100% (107/107), 1.95 MiB | 227.00 KiB/s, done.
+Resolving deltas: 100% (5/5), done.
+
+C:\Users\Ejitade Isaac\Downloads\cmder
+λ cd git-cafe-exercise
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ cat index.html
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css"> ..........
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ sed -i "s/Blandit/ipsum/g" index.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ vi index.html
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ git add -A
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ  git commit -m "changed welcome to our place to welcome to our resturant in index.html"
+[main 17937ec] changed welcome to our place to welcome to our resturant in index.html
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+C:\Users\Ejitade Isaac\Downloads\cmder\git-cafe-exercise(main -> origin)
+λ git push git@github.com:Demmythetechie/git-cafe-exercise.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 431 bytes | 215.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Demmythetechie/git-cafe-exercise.git
+   d1d3f9c..17937ec  main -> main
+
 
