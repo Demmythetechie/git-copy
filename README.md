@@ -222,11 +222,6 @@ HEAD is now at 5585050 home.html file was unstashed
 C:\Users\Ejitade Isaac\Downloads\cmder\Gym-Git-Exercise-Solutions(main)
 λ ls
 about.html  home.html  README.md
-
-
-
-BUNDLE 2
-#e[2Exercise 1
                   
 BUNDLE 2
 # Exercise 1
